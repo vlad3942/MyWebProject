@@ -2,14 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d3a5bc2-4ad6-4d24-a004-8ec67bc08387" name="Default Changelist" comment="Second Spring lesson, with JPA Hibernate SQL from WebApp.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/servingwebcontent/domain/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/servingwebcontent/repos/MessageRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/servingwebcontent/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/servingwebcontent/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/servingwebcontent/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/servingwebcontent/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/servingwebcontent/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/servingwebcontent/repos/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MyWebProject.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/servingwebcontent/config/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/servingwebcontent/config/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/servingwebcontent/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/servingwebcontent/controller/RegistrationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/servingwebcontent/domain/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/servingwebcontent/domain/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/servingwebcontent/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/servingwebcontent/repos/MessageRepo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/servingwebcontent/repos/UserRepo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/login.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/registration.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servingwebcontent/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servingwebcontent/GreetingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servingwebcontent/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servingwebcontent/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servingwebcontent/GreetingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/servingwebcontent/GreetingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servingwebcontent/GreetingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/greeting.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/greeting.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +84,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,12 +96,17 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vladislav\Desktop\SysPO\MyWebProject\src\main\resources\templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="MyWebProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.servingwebcontent.*" />
+          <option name="PATTERN" value="com.example.servingwebcontent.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,82 +132,117 @@
       <option name="presentableId" value="Default" />
       <updated>1593716265932</updated>
       <workItem from="1593716274149" duration="5327000" />
-      <workItem from="1593766855600" duration="5275000" />
+      <workItem from="1593766855600" duration="13717000" />
     </task>
+    <task id="LOCAL-00001" summary="Second Spring lesson, with JPA Hibernate SQL from WebApp.">
+      <created>1593772906853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593772906853</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second Spring lesson, with JPA Hibernate SQL from WebApp." />
     <option name="LAST_COMMIT_MESSAGE" value="Second Spring lesson, with JPA Hibernate SQL from WebApp." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="873" y="359" key="#Assign_Data_Sources" timestamp="1593785115559">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="359" key="#Assign_Data_Sources/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593785115559" />
+    <state x="980" y="359" key="#Deployment" timestamp="1593773858749">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="980" y="359" key="#Deployment/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593773858749" />
     <state x="873" y="359" key="#Notifications" timestamp="1593766955605">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="873" y="359" key="#Notifications/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593766955605" />
-    <state x="1086" y="385" key="#com.intellij.ide.util.MemberChooser" timestamp="1593770435633">
+    <state x="980" y="359" key="#TODO" timestamp="1593773871239">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1086" y="385" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593770435633" />
-    <state x="890" y="291" key="CommitChangelistDialog2" timestamp="1593772867021">
+    <state x="980" y="359" key="#TODO/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593773871238" />
+    <state x="1086" y="385" key="#com.intellij.ide.util.MemberChooser" timestamp="1593783886542">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="890" y="291" key="CommitChangelistDialog2/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593772867021" />
+    <state x="1086" y="385" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593783886542" />
+    <state x="890" y="291" key="CommitChangelistDialog2" timestamp="1593788104561">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="890" y="291" key="CommitChangelistDialog2/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593788104561" />
+    <state x="1061" y="442" key="FileChooserDialogImpl" timestamp="1593787784535">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="442" key="FileChooserDialogImpl/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593787784535" />
     <state x="1103" y="617" key="Github.CreateGistDialog" timestamp="1593766960410">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1103" y="617" key="Github.CreateGistDialog/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593766960410" />
-    <state width="2517" height="492" key="GridCell.Tab.0.bottom" timestamp="1593772867058">
+    <state width="2517" height="492" key="GridCell.Tab.0.bottom" timestamp="1593787822704">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593772867058" />
-    <state width="2517" height="492" key="GridCell.Tab.0.center" timestamp="1593772867058">
+    <state width="2517" height="492" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593787822704" />
+    <state width="2517" height="492" key="GridCell.Tab.0.center" timestamp="1593787822704">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.0.center/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593772867058" />
-    <state width="2517" height="492" key="GridCell.Tab.0.left" timestamp="1593772867057">
+    <state width="2517" height="492" key="GridCell.Tab.0.center/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593787822704" />
+    <state width="2517" height="492" key="GridCell.Tab.0.left" timestamp="1593787822704">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.0.left/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593772867057" />
-    <state width="2517" height="492" key="GridCell.Tab.0.right" timestamp="1593772867058">
+    <state width="2517" height="492" key="GridCell.Tab.0.left/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593787822704" />
+    <state width="2517" height="492" key="GridCell.Tab.0.right" timestamp="1593787822704">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.0.right/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593772867058" />
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1593772867058">
+    <state width="2517" height="492" key="GridCell.Tab.0.right/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593787822704" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1593787822705">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593772867058" />
-    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1593772867058">
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593787822705" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1593787822705">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593772867058" />
-    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1593772867058">
+    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593787822705" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1593787822704">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593772867058" />
-    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1593772867058">
+    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593787822704" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1593787822705">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593772867058" />
-    <state width="2517" height="492" key="GridCell.Tab.2.bottom" timestamp="1593772867059">
+    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593787822705" />
+    <state width="2517" height="492" key="GridCell.Tab.2.bottom" timestamp="1593787822705">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.2.bottom/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593772867059" />
-    <state width="2517" height="492" key="GridCell.Tab.2.center" timestamp="1593772867058">
+    <state width="2517" height="492" key="GridCell.Tab.2.bottom/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593787822705" />
+    <state width="2517" height="492" key="GridCell.Tab.2.center" timestamp="1593787822705">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.2.center/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593772867058" />
-    <state width="2517" height="492" key="GridCell.Tab.2.left" timestamp="1593772867058">
+    <state width="2517" height="492" key="GridCell.Tab.2.center/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593787822705" />
+    <state width="2517" height="492" key="GridCell.Tab.2.left" timestamp="1593787822705">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.2.left/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593772867058" />
-    <state width="2517" height="492" key="GridCell.Tab.2.right" timestamp="1593772867059">
+    <state width="2517" height="492" key="GridCell.Tab.2.left/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593787822705" />
+    <state width="2517" height="492" key="GridCell.Tab.2.right" timestamp="1593787822705">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.2.right/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593772867059" />
+    <state width="2517" height="492" key="GridCell.Tab.2.right/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593787822705" />
     <state x="782" y="343" key="SettingsEditor" timestamp="1593720187474">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -187,5 +251,13 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="977" y="525" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593766856862" />
+    <state x="770" y="282" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593785182170">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="770" y="282" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593785182170" />
+    <state x="1090" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593783300912">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1090" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/3840.1065.1920.1040/-1920.1065.1920.1040@0.0.2560.1400" timestamp="1593783300912" />
   </component>
 </project>
