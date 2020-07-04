@@ -51,9 +51,9 @@
             </exclusions>
         </dependency>
         -->
-        <dependency> <!-- mustache - простой аналог thymeleaf -->
+        <dependency> <!-- /*mustache*/ freemarker - простой аналог thymeleaf -->
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-mustache</artifactId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
 
         <!-- FW для работы с данными -->
